@@ -14,6 +14,8 @@ class LoginController extends Controller
         if (!$query) {
            $message =  array('message' => 'Username and password did not match', 'error' => 500);
         } else {
+            session()->put('id', $query->id);
+            var_dump(session()->get('id'));
             $message = array('message' => 'login successful', 'error' => 200);
         }
 
