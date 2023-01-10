@@ -1,0 +1,1 @@
+congratulations you are now registered please download the app here for you can start playing

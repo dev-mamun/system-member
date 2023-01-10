@@ -21,6 +21,12 @@ class User extends Authenticatable
         'name',
         'email',
         'password',
+        'mop_type',
+        'account_number',
+        'mobile_number',
+        'account_name',
+        'username',
+        'referred_by'
     ];
 
     /**
