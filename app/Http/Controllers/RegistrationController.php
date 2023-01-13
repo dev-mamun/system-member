@@ -32,4 +32,8 @@ class RegistrationController extends Controller
     public function congratulations() {
         return view('congratulations');
     }
+
+    public function version() {
+        return view('version');
+    }
 }

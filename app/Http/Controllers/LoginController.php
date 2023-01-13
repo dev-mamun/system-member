@@ -21,4 +21,8 @@ class LoginController extends Controller
 
         return $message;
     }
+
+    public function loginPage() {
+        return view('login');
+    }
 }
