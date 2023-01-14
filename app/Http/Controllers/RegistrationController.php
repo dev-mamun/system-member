@@ -36,4 +36,8 @@ class RegistrationController extends Controller
     public function version() {
         return view('version');
     }
+
+    public function splashPage() {
+        return view('splash');
+    }
 }

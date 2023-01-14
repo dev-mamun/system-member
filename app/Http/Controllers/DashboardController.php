@@ -17,4 +17,8 @@ class DashboardController extends Controller
     public function addFundsPage() {
         return view('add-funds');
     }
+
+    public function myDailySpinsPage() {
+        return view('my-daily-spins');
+    }
 }

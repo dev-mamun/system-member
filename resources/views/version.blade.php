@@ -16,7 +16,7 @@
             <div class="container">
                 <div class="mb-4 mb-xl-5 text-center text-white position-relative">
                     <img src="{{ url('others-version.png') }}" style="width: 150px;">
-                    <span class="position-absolute align-center mt-5 fs-5">V 1.6</span>
+                    <!-- <span class="position-absolute align-center mt-5 fs-5">V 1.6</span> -->
                 </div>
             </div>
             <div class="container">

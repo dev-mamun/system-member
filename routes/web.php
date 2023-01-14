@@ -29,3 +29,5 @@ Route::get('/dashboard', [DashboardController::class, 'index']);
 Route::get('/funds-history', [FundsController::class, 'index']);
 Route::get('/daily-spins', [DashboardController::class, 'dailySpinPage']);
 Route::get('/add-funds', [DashboardController::class, 'addFundsPage']);
+Route::get('/splash', [RegistrationController::class, 'splashPage']);
+Route::get('/my-daily-spins', [DashboardController::class, 'myDailySpinsPage']);

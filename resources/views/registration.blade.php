@@ -118,7 +118,7 @@
                             <div class="text-center input-icon position-relative mb-2"><img class="position-absolute" src=" {{ url('icon%20-%20email.png') }}"><input class="form-control" type="email" placeholder="EMAIL ADDRESS"></div><!-- End: Email Address -->
                             <!-- Start: Input Username -->
                             <div class="text-center input-icon position-relative mb-2"><img class="position-absolute" src="{{ url('icon%20-%20profile%20blue.png') }}"><input class="form-control" type="text" placeholder="USERNAME">
-                                <div class="alert alert-success custom-alert mb-0 show p-2" role="alert" style="width:125px;height:100px;"><span class="fw-bold text-danger">PLEASE CHOOSE A UNIQUE USERNAME</span></div>
+                                <!-- <div class="alert alert-success custom-alert mb-0 show p-2" role="alert" style="width:125px;height:100px;"><span class="fw-bold text-danger">PLEASE CHOOSE A UNIQUE USERNAME</span></div> -->
                             </div><!-- End: Input Username -->
                             <!-- Start: Input Password -->
                             <div class="text-center input-icon position-relative mb-2"><img class="position-absolute" src="{{ url('icon%20-%20lock.png') }}"><input class="form-control" type="password" name="password" placeholder="PASSWORD"></div><!-- End: Input Password -->
