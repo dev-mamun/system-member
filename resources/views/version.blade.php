@@ -31,7 +31,7 @@
                         
                         <div class="d-flex text-center px-3">
                             <div class="d-grid w-50"><a class="btn btn-sm text-uppercase fw-bold link-dark" role="button" href="javascript:void(0)" style="background: url('button%20short%20-%20red.png') top left / 100% 100% no-repeat, var(--bs-btn-bg);">Update</a></div>
-                            <div class="d-grid w-50"><button class="btn btn-sm text-uppercase fw-bold link-light" type="submit" style="background: url('button%20short%20-%20green.png') top left / 100% 100% no-repeat, var(--bs-btn-bg);">PROCEED</button></div>
+                            <div class="d-grid w-50"><a href="/register/juan01"><button class="btn btn-sm text-uppercase fw-bold link-light" type="submit" style="background: url('button%20short%20-%20green.png') top left / 100% 100% no-repeat, var(--bs-btn-bg);">PROCEED</button></a></div>
                         </div>
                     </div>
                 </div>

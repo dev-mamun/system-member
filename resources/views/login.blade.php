@@ -28,7 +28,7 @@
                             <!-- Start: Action Button -->
                             <div class="d-flex">
                                 <div class="d-grid w-50"><a class="btn btn-danger btn-sm text-uppercase fw-bold" role="button" href="javascript:void(0)">forgot password</a></div>
-                                <div class="d-grid w-50"><button class="btn btn-success btn-sm text-uppercase fw-bold" type="submit">Login</button></div>
+                                <div class="d-grid w-50"><a href="/dashboard" class="btn btn-success btn-sm text-uppercase fw-bold" type="submit">Login</a></div>
                             </div><!-- End: Action Button -->
                         </form>
                     </div>

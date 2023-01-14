@@ -30,8 +30,8 @@
                 <div class="row row-cols-1 row-cols-xl-3 h-100">
                     <div class="col align-self-center">
                         <ul class="nav nav-tabs justify-content-center flex-xl-column align-items-xl-center home-nav">
-                            <li class="nav-item me-xl-0 mb-0 mb-xl-3"><a class="nav-link d-inline-flex flex-column justify-content-center align-items-center" href="#" style="background: url('Btn_MainButton_Green.png') top left / 100% 100% no-repeat;"><img src="{{ url('icon%20-%20pouch.png') }}"><span class="mt-1">ADD FUNDS</span></a></li>
-                            <li class="nav-item mb-0"><a class="nav-link d-inline-flex flex-column justify-content-center align-items-center" href="#" style="background: url('Btn_MainButton_Red.png') top left / 100% 100% no-repeat;"><img src="{{ url('Icon_ShopIcon_Gold3.png') }}"><span class="mt-1">WITHDRAW</span></a></li>
+                            <li class="nav-item me-xl-0 mb-0 mb-xl-3"><a class="nav-link d-inline-flex flex-column justify-content-center align-items-center" href="/add-funds" style="background: url('Btn_MainButton_Green.png') top left / 100% 100% no-repeat;"><img src="{{ url('icon%20-%20pouch.png') }}"><span class="mt-1">ADD FUNDS</span></a></li>
+                            <li class="nav-item mb-0"><a class="nav-link d-inline-flex flex-column justify-content-center align-items-center" href="/withdrawal" style="background: url('Btn_MainButton_Red.png') top left / 100% 100% no-repeat;"><img src="{{ url('Icon_ShopIcon_Gold3.png') }}"><span class="mt-1">WITHDRAW</span></a></li>
                         </ul>
                     </div>
                     <div class="col align-self-center">
@@ -46,13 +46,13 @@
         <footer>
             <div class="container">
                 <ul class="nav nav-tabs justify-content-center home-nav">
-                    <li class="nav-item"><a class="nav-link d-inline-flex flex-column justify-content-center align-items-center" href="#"><img src="{{ url('icon%20-%20pullout.png') }}"><span class="mt-1">FUND HISTORY</span></a></li>
-                    <li class="nav-item"><a class="nav-link d-inline-flex flex-column justify-content-center align-items-center" href="#"><img src="{{ url('icon%20-%20spin%20wheel.png') }}"><span class="mt-1">DAILY SPINS</span></a></li>
-                    <li class="nav-item"><a class="nav-link d-inline-flex flex-column justify-content-center align-items-center" href="#"><img src=" {{ url('icon%20-%20member.png') }}"><span class="mt-1">REFERRALS</span></a></li>
-                    <li class="nav-item"><a class="nav-link d-inline-flex flex-column justify-content-center align-items-center" href="#"><img src="{{ url('icon%20-%20bonuses.png') }}"><span class="mt-1">BONUSES</span></a></li>
-                    <li class="nav-item"><a class="nav-link d-inline-flex flex-column justify-content-center align-items-center" href="#"><img src="{{ url('Icon_ShopIcon_Gold3.png') }}"><span class="mt-1">WITHDRAWALS</span></a></li>
-                    <li class="nav-item"><a class="nav-link d-inline-flex flex-column justify-content-center align-items-center" href="#"><img src="{{ url('Icon_ImageIcon_Gift_Blue.png') }}"><span class="mt-1">BONUS ITEMS</span></a></li>
-                    <li class="nav-item"><a class="nav-link d-inline-flex flex-column justify-content-center align-items-center" href="#"><img src="{{ url('icon%20-%20raffle%20ticket.png') }}"><span class="mt-1">RAFFLE TICKETS</span></a></li>
+                    <li class="nav-item"><a class="nav-link d-inline-flex flex-column justify-content-center align-items-center" href="/my-funds"><img src="{{ url('icon%20-%20pullout.png') }}"><span class="mt-1">FUND HISTORY</span></a></li>
+                    <li class="nav-item"><a class="nav-link d-inline-flex flex-column justify-content-center align-items-center" href="/daily-spins"><img src="{{ url('icon%20-%20spin%20wheel.png') }}"><span class="mt-1">DAILY SPINS</span></a></li>
+                    <li class="nav-item"><a class="nav-link d-inline-flex flex-column justify-content-center align-items-center" href="/my-reference"><img src=" {{ url('icon%20-%20member.png') }}"><span class="mt-1">REFERRALS</span></a></li>
+                    <li class="nav-item"><a class="nav-link d-inline-flex flex-column justify-content-center align-items-center" href="/bonus"><img src="{{ url('icon%20-%20bonuses.png') }}"><span class="mt-1">BONUSES</span></a></li>
+                    <li class="nav-item"><a class="nav-link d-inline-flex flex-column justify-content-center align-items-center" href="/withdrawal"><img src="{{ url('Icon_ShopIcon_Gold3.png') }}"><span class="mt-1">WITHDRAWALS</span></a></li>
+                    <li class="nav-item"><a class="nav-link d-inline-flex flex-column justify-content-center align-items-center" href="/my-bonus-items"><img src="{{ url('Icon_ImageIcon_Gift_Blue.png') }}"><span class="mt-1">BONUS ITEMS</span></a></li>
+                    <li class="nav-item"><a class="nav-link d-inline-flex flex-column justify-content-center align-items-center" href="/my-raffle-ticket"><img src="{{ url('icon%20-%20raffle%20ticket.png') }}"><span class="mt-1">RAFFLE TICKETS</span></a></li>
                 </ul>
             </div>
         </footer><!-- End: Bottom Navbar -->

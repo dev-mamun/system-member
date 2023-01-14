@@ -21,7 +21,7 @@
         </div>
         <div class="container">
             <h6 class="mx-auto mb-4" style="max-width: 235px;">THANK YOU FOR CREATING AN ACCOUNT WITH US. PLEASE INSTALL THE LATEST APK.</h6>
-            <div ><button class="btn btn-sm text-uppercase fw-bold link-light" type="submit" style="background: url('button%20short%20-%20green.png') top left / 100% 100% no-repeat, var(--bs-btn-bg);"><span class="fs-3">DOWNLOAD</span></button></div>
+            <div ><a href="/login" class="btn btn-sm text-uppercase fw-bold link-light" type="submit" style="background: url('button%20short%20-%20green.png') top left / 100% 100% no-repeat, var(--bs-btn-bg);"><span class="fs-3">DOWNLOAD</span></a></div>
         </div>
     </div><!-- End: Welcome Screen -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>

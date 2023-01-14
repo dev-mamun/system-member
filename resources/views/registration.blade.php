@@ -107,7 +107,7 @@
                         <h6 class="text-uppercase fw-bold text-center text-white mb-0" style="font-size: 14px;line-height: 16px;">signup</h6>
                     </div>
                     <div class="card-body pt-3 pb-4">
-                        <form class="text-center mx-auto px-3" method="post">
+                        <form class="text-center mx-auto px-3">
                             <!-- Start: Upline Username -->
                             <div class="text-center input-icon position-relative mb-2"><img class="position-absolute" src="{{ url('icon%20-%20star.png') }}"><input class="form-control" type="email" placeholder="DISPLAYUPLINEUSERNAMEHERE"></div><!-- End: Upline Username -->
                             <!-- Start: Full Name -->
@@ -125,7 +125,7 @@
                             <!-- Start: Input Repeat Password -->
                             <div class="text-center input-icon position-relative mb-4"><img class="position-absolute" src="{{ url('icon%20-%20lock.png') }}"><input class="form-control" type="password" name="password" placeholder="REPEAT PASSWORD"></div><!-- End: Input Repeat Password -->
                             <div class="d-flex justify-content-center">
-                                <div class="d-grid w-50"><button class="btn btn-success btn-sm text-uppercase fw-bold" type="submit">CREATE ACCOUNT</button></div>
+                                <div class="d-grid w-50"><a href="welcome"><a href="/welcome" class="btn btn-success btn-sm text-uppercase fw-bold">CREATE ACCOUNT</a></a></div>
                             </div>
                         </form>
                     </div>

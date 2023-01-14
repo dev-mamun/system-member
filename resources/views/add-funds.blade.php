@@ -22,13 +22,13 @@
             <h1 class="text-uppercase text-light d-flex mb-0 mt-3 ps-3 ps-xl-4"><img width="35" height="35" src="{{ url('icon%20-%20pouch.png') }}" class="me-2">ADD     FUNDS</h1>
         </div>
         <div>
-            <!-- Start: Profile Button --><a class="btn btn-home p-0" role="button" href="#"><img class="flex-shrink-0" width="40" height="46" src="{{ url('icon%20-%20home.png') }}"></a><!-- End: Profile Button -->
+            <!-- Start: Profile Button --><a class="btn btn-home p-0" role="button" href="/dashboard"><img class="flex-shrink-0" width="40" height="46" src="{{ url('icon%20-%20home.png') }}"></a><!-- End: Profile Button -->
         </div>
     </header>
     <div class="py-4">
         <div class="container h-100">
             <ul class="nav nav-tabs justify-content-center nav-add-funds">
-            <li class="nav-item"><a class="nav-link d-inline-flex flex-column justify-content-center align-items-center py-0" href="javascript:void(0)" style="background: url('500.png') top left / 100% 100% no-repeat;"></a></li>
+            <li data-bs-toggle="modal" data-bs-target="#modal-1" class="nav-item"><a class="nav-link d-inline-flex flex-column justify-content-center align-items-center py-0" href="javascript:void(0)" style="background: url('500.png') top left / 100% 100% no-repeat;"></a></li>
                 <li class="nav-item"><a class="nav-link d-inline-flex flex-column justify-content-center align-items-center py-0" href="javascript:void(0)" style="background: url('1k.png') top left / 100% 100% no-repeat;"></a></li>
                 <li class="nav-item"><a class="nav-link d-inline-flex flex-column justify-content-center align-items-center py-0" href="javascript:void(0)" style="background: url('3k.png') top left / 100% 100% no-repeat;"></a></li>
                 <li class="nav-item"><a class="nav-link d-inline-flex flex-column justify-content-center align-items-center py-0" href="javascript:void(0)" style="background: url('5k.png') top left / 100% 100% no-repeat;"></a></li>
@@ -49,7 +49,27 @@
                             <!-- Start: Action Button -->
                             <div class="d-flex mx-auto m-0 w-50">
                                 <div class="d-grid w-50"><button class="btn btn-danger text-uppercase fw-bold" type="button" data-bs-dismiss="modal">CHANGE</button></div>
-                                <div class="d-grid w-50"><button class="btn btn-success text-uppercase fw-bold" type="submit">PROCEED</button></div>
+                                <div class="d-grid w-50"><button class="btn btn-success text-uppercase fw-bold" type="submit" data-bs-toggle="modal" data-bs-target="#modal-2">PROCEED</button></div>
+                            </div><!-- End: Action Button -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade custom-modal" role="dialog" tabindex="-1" id="modal-2">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header d-block py-2 rounded-0">
+                            <h6 class="text-uppercase text-center text-white modal-title">PLEASE ONLY SEND GCASH JUAN PERDIDO</h6><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body" style="background-color:white;">
+                            
+                        </div>
+                        <div class="modal-footer d-block">
+                            <!-- Start: Action Button -->
+                            <div class="d-flex mx-auto m-0 w-50">
+                                <div class="d-grid w-50"><button class="btn btn-danger text-uppercase fw-bold" type="button" data-bs-dismiss="modal">CHANGE</button></div>
+                                <div class="d-grid w-50"><a href="/my-funds" class="btn btn-success text-uppercase fw-bold">UPLOAD</a></div>
                             </div><!-- End: Action Button -->
                         </div>
                     </div>

@@ -22,7 +22,7 @@
             </ul>
         </div>
         <div>
-            <h1 class="text-uppercase text-light d-flex mb-0"><img src="{{ url('icon%20-%20bonuses.png') }}" width="40" height="40" class="me-2">MY BONUSES</h1>
+            <h1 class="text-uppercase text-light d-flex mb-0"><img src="{{ url('icon%20-%20bonuses.png') }}" width="40" height="40" class="me-2">MY WITHDRAWAL</h1>
         </div>
         <div>
             <!-- Start: Profile Button --><a class="btn btn-home p-0" role="button" href="/dashboard"><img class="flex-shrink-0" width="40" height="46" src="{{ url('icon%20-%20home.png') }}"></a><!-- End: Profile Button -->
@@ -44,11 +44,11 @@
                 <thead>
                     <tr class="table-dark-header">
                         <th>COUNT</th>
-                        <th>USERNAME</th>
-                        <th>BONUS TYPE</th>
+                        <th>DATE</th>
+                        <th>TYPE</th>
                         <th>AMOUNT</th>
                         <th>STATUS</th>
-                        <th>DATE PAID</th>
+                        <th>DATE</th>
                         <th>PAID BY</th>
                     </tr>
                 </thead>

@@ -13,10 +13,10 @@
 
 <body>
     <header class="d-flex justify-content-between py-3 px-3 pt-xl-4 px-xl-4">
-        <div class="d-none d-lg-block">
+        <div class=" d-lg-block">
         </div>
         <div>
-            <h1 class="text-uppercase text-light d-flex mb-0"><img src="{{ url('icon%20-%20member.png') }}" width="40" height="40" class="me-2">MY REFREANCE</h1>
+            <h1 class="text-uppercase text-light d-flex mb-0"><img src="{{ url('icon%20-%20raffle%20ticket.png') }}" width="40" height="40" class="me-2">MY RAFFLE TICKECTS</h1>
         </div>
         <div>
             <!-- Start: Profile Button --><a class="btn btn-home p-0" role="button" href="/dashboard"><img class="flex-shrink-0" width="40" height="46" src="{{ url('icon%20-%20home.png') }}"></a><!-- End: Profile Button -->
@@ -28,12 +28,12 @@
                 <thead>
                     <tr class="table-dark-header">
                         <th>COUNT</th>
-                        <th>USERNAME</th>
-                        <th>BONUS TYPE</th>
+                        <th>FUND DATE</th>
                         <th>AMOUNT</th>
+                        <th>TICKECT#</th>
                         <th>STATUS</th>
-                        <th>DATE PAID</th>
-                        <th>PAID BY</th>
+                        <th>RAFFLE DATE</th>
+                        <th>OUTCOME</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -42,7 +42,7 @@
                         <td>Cell 2</td>
                         <td>Cell 2</td>
                         <td>Cell 2</td>
-                        <td>Cell 2</td>
+                        <td>--</td>
                         <td>—</td>
                         <td>—</td>
                     </tr>
