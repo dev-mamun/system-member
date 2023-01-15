@@ -20,15 +20,19 @@
                         <h6 class="text-uppercase fw-bold text-center text-white mb-0" style="font-size: 14px;line-height: 16px;">LOGIN</h6>
                     </div>
                     <div class="card-body pt-3 pb-4">
-                        <form class="text-center px-3" method="post">
+                    @if(Session::has('error'))
+<p class="alert alert-error">{{ Session::get('error') }}</p>
+@endif
+                        <form class="text-center px-3" method="post" action="/login">
+                            {{ @csrf_field() }}
                             <!-- Start: Input Username -->
-                            <div class="text-center input-icon position-relative mb-2"><img class="position-absolute" src="assets/img/icon%20-%20profile%20blue.png"><input class="form-control" type="text" placeholder="USERNAME"></div><!-- End: Input Username -->
+                            <div class="text-center input-icon position-relative mb-2"><img class="position-absolute" src="assets/img/icon%20-%20profile%20blue.png"><input class="form-control" type="text" name="username" placeholder="USERNAME"></div><!-- End: Input Username -->
                             <!-- Start: Input Password -->
                             <div class="text-center input-icon position-relative mb-4"><img class="position-absolute" src="assets/img/icon%20-%20lock.png"><input class="form-control" type="password" name="password" placeholder="PASSWORD"></div><!-- End: Input Password -->
                             <!-- Start: Action Button -->
                             <div class="d-flex">
                                 <div class="d-grid w-50"><a class="btn btn-danger btn-sm text-uppercase fw-bold" role="button" href="javascript:void(0)">forgot password</a></div>
-                                <div class="d-grid w-50"><a href="/dashboard" class="btn btn-success btn-sm text-uppercase fw-bold" type="submit">Login</a></div>
+                                <div class="d-grid w-50"><input type="submit" class="btn btn-success btn-sm text-uppercase fw-bold" value="Login"/></div>
                             </div><!-- End: Action Button -->
                         </form>
                     </div>

@@ -24,6 +24,7 @@ class RegistrationController extends Controller
             //get the id of the referrer
             $query = User::where(array('username' => $_POST['upline_username']))->first();
             $_POST['referred_by'] = $query->id;
+            $_POST['password'] = md5($_POST['password']);
             User::create($_POST);
             print_r(url('welcome'));
         }

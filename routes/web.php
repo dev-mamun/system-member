@@ -17,7 +17,7 @@ use App\Http\Controllers\FundsController;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
+Route::post('/login', [LoginController::class, 'login']);
 Route::get('/register/{username}', [RegistrationController::class, 'index']);
 Route::post('/register', [RegistrationController::class, 'register'])->name('register');
 Route::get('welcome', [RegistrationController::class, 'congratulations'])->name('congratulations');
