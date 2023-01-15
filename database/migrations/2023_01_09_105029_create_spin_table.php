@@ -13,14 +13,14 @@ class CreateSpinTable extends Migration
      */
     public function up()
     {
-        Schema::create('spin', function (Blueprint $table) {
-            $table->id();
-            $table->integer('user_id');
-            $table->string('value');
-            $table->string('amount');
-            $table->string('type');
-            $table->timestamps();
-        });
+        // Schema::create('spin', function (Blueprint $table) {
+        //     $table->id();
+        //     $table->integer('user_id');
+        //     $table->string('value');
+        //     $table->string('amount');
+        //     $table->string('type');
+        //     $table->timestamps();
+        // });
     }
 
     /**

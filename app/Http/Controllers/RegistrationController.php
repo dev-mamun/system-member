@@ -25,7 +25,7 @@ class RegistrationController extends Controller
             $query = User::where(array('username' => $_POST['upline_username']))->first();
             $_POST['referred_by'] = $query->id;
             User::create($_POST);
-            print_r(url('greetings/congratulations'));
+            print_r(url('welcome'));
         }
     }
 

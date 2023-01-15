@@ -13,16 +13,16 @@ class CreateTableFunds extends Migration
      */
     public function up()
     {
-        Schema::create('funds', function (Blueprint $table) {
-            $table->id();
-            $table->string('image')->nullable();
-            $table->string('user_id');
-            $table->string('date');
-            $table->string('value');
-            $table->boolean('is_disabled');
-            $table->string('description');
-            $table->timestamps();
-        });
+        // Schema::create('funds', function (Blueprint $table) {
+        //     $table->id();
+        //     $table->string('image')->nullable();
+        //     $table->string('user_id');
+        //     $table->string('date');
+        //     $table->string('value');
+        //     $table->boolean('is_disabled');
+        //     $table->string('description');
+        //     $table->timestamps();
+        // });
     }
 
     /**
