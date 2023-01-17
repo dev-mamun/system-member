@@ -28,13 +28,13 @@
     <div class="py-4">
         <div class="container h-100">
             <ul class="nav nav-tabs justify-content-center nav-add-funds">
-            <li data-bs-toggle="modal" data-bs-target="#modal-1" class="nav-item"><a class="nav-link d-inline-flex flex-column justify-content-center align-items-center py-0" href="javascript:void(0)" style="background: url('500.png') top left / 100% 100% no-repeat;"></a></li>
-                <li class="nav-item"><a class="nav-link d-inline-flex flex-column justify-content-center align-items-center py-0" href="javascript:void(0)" style="background: url('1k.png') top left / 100% 100% no-repeat;"></a></li>
-                <li class="nav-item"><a class="nav-link d-inline-flex flex-column justify-content-center align-items-center py-0" href="javascript:void(0)" style="background: url('3k.png') top left / 100% 100% no-repeat;"></a></li>
-                <li class="nav-item"><a class="nav-link d-inline-flex flex-column justify-content-center align-items-center py-0" href="javascript:void(0)" style="background: url('5k.png') top left / 100% 100% no-repeat;"></a></li>
-                <li class="nav-item"><a class="nav-link d-inline-flex flex-column justify-content-center align-items-center py-0" href="javascript:void(0)" style="background: url('10k up.png') top left / 100% 100% no-repeat;"></a></li>
+            <li data-bs-toggle="modal" data-bs-target="#modal-500" class="nav-item"><a class="nav-link d-inline-flex flex-column justify-content-center align-items-center py-0" href="javascript:void(0)" style="background: url('500.png') top left / 100% 100% no-repeat;"></a></li>
+                <li class="nav-item" data-bs-toggle="modal" data-bs-target="#modal-1000" class="nav-item"><a class="nav-link d-inline-flex flex-column justify-content-center align-items-center py-0" href="javascript:void(0)" style="background: url('1k.png') top left / 100% 100% no-repeat;"></a></li>
+                <li class="nav-item" data-bs-toggle="modal" data-bs-target="#modal-3000"><a class="nav-link d-inline-flex flex-column justify-content-center align-items-center py-0" href="javascript:void(0)" style="background: url('3k.png') top left / 100% 100% no-repeat;"></a></li>
+                <li class="nav-item" data-bs-toggle="modal" data-bs-target="#modal-5000"><a class="nav-link d-inline-flex flex-column justify-content-center align-items-center py-0" href="javascript:void(0)" style="background: url('5k.png') top left / 100% 100% no-repeat;"></a></li>
+                <li class="nav-item" data-bs-toggle="modal" data-bs-target="#modal-10000"><a class="nav-link d-inline-flex flex-column justify-content-center align-items-center py-0" href="javascript:void(0)" style="background: url('10k up.png') top left / 100% 100% no-repeat;"></a></li>
             </ul>
-            <div class="modal fade custom-modal" role="dialog" tabindex="-1" id="modal-1">
+            <div class="modal fade custom-modal" role="dialog" tabindex="-1" id="modal-500">
                 <div class="modal-dialog modal-dialog-centered" role="document">
                     <div class="modal-content">
                         <div class="modal-header d-block py-2 rounded-0">
@@ -49,31 +49,235 @@
                             <!-- Start: Action Button -->
                             <div class="d-flex mx-auto m-0 w-50">
                                 <div class="d-grid w-50"><button class="btn btn-danger text-uppercase fw-bold" type="button" data-bs-dismiss="modal">CHANGE</button></div>
-                                <div class="d-grid w-50"><button class="btn btn-success text-uppercase fw-bold" type="submit" data-bs-toggle="modal" data-bs-target="#modal-2">PROCEED</button></div>
+                                <div class="d-grid w-50"><button class="btn btn-success text-uppercase fw-bold" type="submit" data-bs-toggle="modal" data-bs-target="#modal-1-500">PROCEED</button></div>
                             </div><!-- End: Action Button -->
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="modal fade custom-modal" role="dialog" tabindex="-1" id="modal-2">
+            <div class="modal fade custom-modal" role="dialog" tabindex="-1" id="modal-1000">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header d-block py-2 rounded-0">
+                            <h6 class="text-uppercase text-center text-white modal-title">YOU ARE ABOUT TO ADD</h6><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <ul class="nav nav-tabs justify-content-center nav-add-funds">
+                                <li class="nav-item mb-0"><a class="nav-link d-inline-flex flex-column justify-content-center align-items-center py-0" href="javascript:void(0)" style="background: url(&quot;assets/img/Frame_ItemFrame01_Color_Brown.png&quot;) top left / 100% 100% no-repeat;" data-bs-toggle="modal" data-bs-target="#modal-1"><img width="33" height="31" src="{{ url('icon%20-%20coin.png') }}"><span class="fs-5 fw-bold d-block">1000</span></a></li>
+                            </ul>
+                        </div>
+                        <div class="modal-footer d-block">
+                            <!-- Start: Action Button -->
+                            <div class="d-flex mx-auto m-0 w-50">
+                                <div class="d-grid w-50"><button class="btn btn-danger text-uppercase fw-bold" type="button" data-bs-dismiss="modal">CHANGE</button></div>
+                                <div class="d-grid w-50"><button class="btn btn-success text-uppercase fw-bold" type="submit" data-bs-toggle="modal" data-bs-target="#modal-1-1000">PROCEED</button></div>
+                            </div><!-- End: Action Button -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+ 
+            <div class="modal fade custom-modal" role="dialog" tabindex="-1" id="modal-3000">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header d-block py-2 rounded-0">
+                            <h6 class="text-uppercase text-center text-white modal-title">YOU ARE ABOUT TO ADD</h6><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <ul class="nav nav-tabs justify-content-center nav-add-funds">
+                                <li class="nav-item mb-0"><a class="nav-link d-inline-flex flex-column justify-content-center align-items-center py-0" href="javascript:void(0)" style="background: url(&quot;assets/img/Frame_ItemFrame01_Color_Brown.png&quot;) top left / 100% 100% no-repeat;" data-bs-toggle="modal" data-bs-target="#modal-1"><img width="33" height="31" src="{{ url('icon%20-%20coin.png') }}"><span class="fs-5 fw-bold d-block">3000</span></a></li>
+                            </ul>
+                        </div>
+                        <div class="modal-footer d-block">
+                            <!-- Start: Action Button -->
+                            <div class="d-flex mx-auto m-0 w-50">
+                                <div class="d-grid w-50"><button class="btn btn-danger text-uppercase fw-bold" type="button" data-bs-dismiss="modal">CHANGE</button></div>
+                                <div class="d-grid w-50"><button class="btn btn-success text-uppercase fw-bold" type="submit" data-bs-toggle="modal" data-bs-target="#modal-1-3000">PROCEED</button></div>
+                            </div><!-- End: Action Button -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade custom-modal" role="dialog" tabindex="-1" id="modal-5000">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header d-block py-2 rounded-0">
+                            <h6 class="text-uppercase text-center text-white modal-title">YOU ARE ABOUT TO ADD</h6><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <ul class="nav nav-tabs justify-content-center nav-add-funds">
+                                <li class="nav-item mb-0"><a class="nav-link d-inline-flex flex-column justify-content-center align-items-center py-0" href="javascript:void(0)" style="background: url(&quot;assets/img/Frame_ItemFrame01_Color_Brown.png&quot;) top left / 100% 100% no-repeat;" data-bs-toggle="modal" data-bs-target="#modal-1"><img width="33" height="31" src="{{ url('icon%20-%20coin.png') }}"><span class="fs-5 fw-bold d-block">5000</span></a></li>
+                            </ul>
+                        </div>
+                        <div class="modal-footer d-block">
+                            <!-- Start: Action Button -->
+                            <div class="d-flex mx-auto m-0 w-50">
+                                <div class="d-grid w-50"><button class="btn btn-danger text-uppercase fw-bold" type="button" data-bs-dismiss="modal">CHANGE</button></div>
+                                <div class="d-grid w-50"><button class="btn btn-success text-uppercase fw-bold" type="submit" data-bs-toggle="modal" data-bs-target="#modal-1-5000">PROCEED</button></div>
+                            </div><!-- End: Action Button -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade custom-modal" role="dialog" tabindex="-1" id="modal-10000">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header d-block py-2 rounded-0">
+                            <h6 class="text-uppercase text-center text-white modal-title">YOU ARE ABOUT TO ADD</h6><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <ul class="nav nav-tabs justify-content-center nav-add-funds">
+                                <li class="nav-item mb-0"><a class="nav-link d-inline-flex flex-column justify-content-center align-items-center py-0" href="javascript:void(0)" style="background: url(&quot;assets/img/Frame_ItemFrame01_Color_Brown.png&quot;) top left / 100% 100% no-repeat;" data-bs-toggle="modal" data-bs-target="#modal-1"><img width="33" height="31" src="{{ url('icon%20-%20coin.png') }}"><span class="fs-5 fw-bold d-block">10k & UP</span></a></li>
+                            </ul>
+                        </div>
+                        <div class="modal-footer d-block">
+                            <!-- Start: Action Button -->
+                            <div class="d-flex mx-auto m-0 w-50">
+                                <div class="d-grid w-50"><button class="btn btn-danger text-uppercase fw-bold" type="button" data-bs-dismiss="modal">CHANGE</button></div>
+                                <div class="d-grid w-50"><button class="btn btn-success text-uppercase fw-bold" type="submit" data-bs-toggle="modal" data-bs-target="#modal-1-10000">PROCEED</button></div>
+                            </div><!-- End: Action Button -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade custom-modal" role="dialog" tabindex="-1" id="modal-1-500">
+            <form method="POST" action="funds/add" enctype="multipart/form-data">
+                {{ @csrf_field()}}
                 <div class="modal-dialog modal-dialog-centered" role="document">
                     <div class="modal-content">
                         <div class="modal-header d-block py-2 rounded-0">
                             <h6 class="text-uppercase text-center text-white modal-title">PLEASE ONLY SEND GCASH JUAN PERDIDO</h6><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-body" style="background-color:white;">
-                            
+                           <span>Add image of the fund</span>
+                           <input type="file" name="image"/> <br/>
+                           <span>Image of the receipt</span>
+                           <input type="file" name="receipt"/>
                         </div>
                         <div class="modal-footer d-block">
                             <!-- Start: Action Button -->
                             <div class="d-flex mx-auto m-0 w-50">
                                 <div class="d-grid w-50"><button class="btn btn-danger text-uppercase fw-bold" type="button" data-bs-dismiss="modal">CHANGE</button></div>
-                                <div class="d-grid w-50"><a href="/my-funds" class="btn btn-success text-uppercase fw-bold">UPLOAD</a></div>
+                                <div class="d-grid w-50"><input  class="btn btn-success text-uppercase fw-bold" value="UPLOAD" type="submit"/></div>
+                                <input type="hidden" value="500" name="value"/>
                             </div><!-- End: Action Button -->
                         </div>
                     </div>
                 </div>
+            </form>
+            </div>
+
+            <div class="modal fade custom-modal" role="dialog" tabindex="-1" id="modal-1-500">
+            <form method="POST" action="funds/add" enctype="multipart/form-data">
+                {{ @csrf_field()}}
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header d-block py-2 rounded-0">
+                            <h6 class="text-uppercase text-center text-white modal-title">PLEASE ONLY SEND GCASH JUAN PERDIDO</h6><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body" style="background-color:white;">
+                           <span>Add image of the fund</span>
+                           <input type="file" name="image"/> <br/>
+                           <span>Image of the receipt</span>
+                           <input type="file" name="receipt"/>
+                        </div>
+                        <div class="modal-footer d-block">
+                            <!-- Start: Action Button -->
+                            <div class="d-flex mx-auto m-0 w-50">
+                                <div class="d-grid w-50"><button class="btn btn-danger text-uppercase fw-bold" type="button" data-bs-dismiss="modal">CHANGE</button></div>
+                                <div class="d-grid w-50"><input  class="btn btn-success text-uppercase fw-bold" value="UPLOAD" type="submit"/></div>
+                                <input type="hidden" value="500" name="value"/>
+                            </div><!-- End: Action Button -->
+                        </div>
+                    </div>
+                </div>
+            </form>
+            </div>
+
+            <div class="modal fade custom-modal" role="dialog" tabindex="-1" id="modal-1-3000">
+            <form method="POST" action="funds/add" enctype="multipart/form-data">
+                {{ @csrf_field()}}
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header d-block py-2 rounded-0">
+                            <h6 class="text-uppercase text-center text-white modal-title">PLEASE ONLY SEND GCASH JUAN PERDIDO</h6><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body" style="background-color:white;">
+                           <span>Add image of the fund</span>
+                           <input type="file" name="image"/> <br/>
+                           <span>Image of the receipt</span>
+                           <input type="file" name="receipt"/>
+                        </div>
+                        <div class="modal-footer d-block">
+                            <!-- Start: Action Button -->
+                            <div class="d-flex mx-auto m-0 w-50">
+                                <div class="d-grid w-50"><button class="btn btn-danger text-uppercase fw-bold" type="button" data-bs-dismiss="modal">CHANGE</button></div>
+                                <div class="d-grid w-50"><input  class="btn btn-success text-uppercase fw-bold" value="UPLOAD" type="submit"/></div>
+                                <input type="hidden" value="3000" name="value"/>
+                            </div><!-- End: Action Button -->
+                        </div>
+                    </div>
+                </div>
+            </form>
+            </div>
+
+            <div class="modal fade custom-modal" role="dialog" tabindex="-1" id="modal-1-5000">
+            <form method="POST" action="funds/add" enctype="multipart/form-data">
+                {{ @csrf_field()}}
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header d-block py-2 rounded-0">
+                            <h6 class="text-uppercase text-center text-white modal-title">PLEASE ONLY SEND GCASH JUAN PERDIDO</h6><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body" style="background-color:white;">
+                           <span>Add image of the fund</span>
+                           <input type="file" name="image"/> <br/>
+                           <span>Image of the receipt</span>
+                           <input type="file" name="receipt"/>
+                        </div>
+                        <div class="modal-footer d-block">
+                            <!-- Start: Action Button -->
+                            <div class="d-flex mx-auto m-0 w-50">
+                                <div class="d-grid w-50"><button class="btn btn-danger text-uppercase fw-bold" type="button" data-bs-dismiss="modal">CHANGE</button></div>
+                                <div class="d-grid w-50"><input  class="btn btn-success text-uppercase fw-bold" value="UPLOAD" type="submit"/></div>
+                                <input type="hidden" value="5000" name="value"/>
+                            </div><!-- End: Action Button -->
+                        </div>
+                    </div>
+                </div>
+            </form>
+            </div>
+
+            <div class="modal fade custom-modal" role="dialog" tabindex="-1" id="modal-1-10000">
+            <form method="POST" action="funds/add" enctype="multipart/form-data">
+                {{ @csrf_field()}}
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header d-block py-2 rounded-0">
+                            <h6 class="text-uppercase text-center text-white modal-title">PLEASE ONLY SEND GCASH JUAN PERDIDO</h6><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body" style="background-color:white;">
+                           <span>Add image of the fund</span>
+                           <input type="file" name="image"/> <br/>
+                           <span>Image of the receipt</span>
+                           <input type="file" name="receipt"/>
+                           Input your Amount:
+                           <input type="text" name="value"/>
+                        </div>
+                        <div class="modal-footer d-block">
+                            <!-- Start: Action Button -->
+                            <div class="d-flex mx-auto m-0 w-50">
+                                <div class="d-grid w-50"><button class="btn btn-danger text-uppercase fw-bold" type="button" data-bs-dismiss="modal">CHANGE</button></div>
+                                <div class="d-grid w-50"><input  class="btn btn-success text-uppercase fw-bold" value="UPLOAD" type="submit"/></div>
+                            </div><!-- End: Action Button -->
+                        </div>
+                    </div>
+                </div>
+            </form>
             </div>
         </div>
     </div>

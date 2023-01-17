@@ -25,6 +25,7 @@ class RegistrationController extends Controller
             $query = User::where(array('username' => $_POST['upline_username']))->first();
             $_POST['referred_by'] = $query->id;
             $_POST['password'] = md5($_POST['password']);
+            $_POST['is_active'] = 0;
             User::create($_POST);
             print_r(url('welcome'));
         }

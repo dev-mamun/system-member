@@ -29,11 +29,21 @@
     <div class="py-4">
         <div class="container h-100">
             <ul class="nav nav-tabs justify-content-center nav-funds">
-                <li class="nav-item"><a class="nav-link py-0" href="#"><span class="fw-bold d-inline-flex justify-content-center align-items-center position-absolute nav-icon-diamond">1</span>
-                        <p class="text-center mb-0">01/01/2023</p><span class="d-inline-flex flex-column justify-content-center align-items-center bg-brown-container" style="background: url('Frame_ItemFrame01_Color_Brown.png') top left / 100% 100% no-repeat;"><img width="33" height="31" src="{{ url('icon%20-%20coin.png') }}"><span class="fs-5 fw-bold d-block">500</span></span>
+                @foreach($query as $q) 
+                @if($q->is_enabled)
+                <li class="nav-item"><a class="nav-link py-0" href="#"><span class="fw-bold d-inline-flex justify-content-center align-items-center position-absolute nav-icon-diamond">{{ $diff = Carbon\Carbon::parse($q->created_at)->diffInDays() }}</span>
+                        <p class="text-center mb-0">{{ $q->created_at->format('m/d/Y')}}</p><span class="d-inline-flex flex-column justify-content-center align-items-center bg-brown-container" style="background: url('Frame_ItemFrame01_Color_Brown.png') top left / 100% 100% no-repeat;"><img width="33" height="31" src="{{ $q->image }}"><span class="fs-5 fw-bold d-block">{{$q->value}}</span></span>
                         <p class="text-center mb-0">WITHDRAW FUND</p><span class="fw-bold d-inline-flex justify-content-center align-items-center position-absolute nav-icon-lock"></span>
                     </a></li>
-                <li class="nav-item"><a class="nav-link py-0" href="#"><span class="fw-bold d-inline-flex justify-content-center align-items-center position-absolute nav-icon-diamond">1</span>
+                    @else
+                    <li class="nav-item" style="opacity: 0.5"><a class="nav-link py-0" href="#"><span class="fw-bold d-inline-flex justify-content-center align-items-center position-absolute nav-icon-diamond">{{ $diff = Carbon\Carbon::parse($q->created_at)->diffInDays()  }}</span>
+                        <p class="text-center mb-0">{{ $q->created_at->format('m/d/Y')}}</p><span class="d-inline-flex flex-column justify-content-center align-items-center bg-brown-container" style="background: url('Frame_ItemFrame01_Color_Brown.png') top left / 100% 100% no-repeat;"><img width="33" height="31" src="{{ $q->image }}"><span class="fs-5 fw-bold d-block">{{$q->value}}</span></span>
+                        <p class="text-center mb-0">WITHDRAW FUND</p><span class="fw-bold d-inline-flex justify-content-center align-items-center position-absolute nav-icon-lock"></span>
+                    </a></li>
+                    @endIf
+                @endforeach
+                
+                <!-- <li class="nav-item"><a class="nav-link py-0" href="#"><span class="fw-bold d-inline-flex justify-content-center align-items-center position-absolute nav-icon-diamond">1</span>
                         <p class="text-center mb-0">01/01/2023</p><span class="d-inline-flex flex-column justify-content-center align-items-center bg-brown-container" style="background: url('Frame_ItemFrame01_Color_Brown.png') top left / 100% 100% no-repeat;"><img width="33" height="31" src="{{ url('icon%20-%20coin.png') }}"><span class="fs-5 fw-bold d-block">500</span></span>
                         <p class="text-center mb-0">WITHDRAW FUND</p><span class="fw-bold d-inline-flex justify-content-center align-items-center position-absolute nav-icon-lock"></span>
                     </a></li>
@@ -44,7 +54,7 @@
                 <li class="nav-item" style='opacity: 0.5'><a class="nav-link py-0" href="#"><span class="fw-bold d-inline-flex justify-content-center align-items-center position-absolute nav-icon-diamond">-</span>
                         <p class="text-center mb-0">-</p><span class="d-inline-flex flex-column justify-content-center align-items-center bg-brown-container" style="background: url('Frame_ItemFrame01_Color_Brown.png') top left / 100% 100% no-repeat;"><img width="33" height="31" src="{{ url('icon%20-%20coin.png') }}"><span class="fs-5 fw-bold d-block">500</span></span>
                         <p class="text-center mb-0">WITHDRAW FUND</p><span class="fw-bold d-inline-flex justify-content-center align-items-center position-absolute nav-icon-lock"></span>
-                    </a></li>
+                    </a></li> -->
             </ul>
         </div>
     </div>
