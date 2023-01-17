@@ -8,15 +8,16 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:100,200,300,400,500,600,700,800,900&amp;display=swap">
     <link rel="stylesheet" href="{{ url('styles.css') }}">
+    <link rel="stylesheet" href="{{ url('custom.css') }}">
 </head>
 
 <body class="h-100">
     <div class="d-flex flex-column justify-content-center h-100 py-xl-5 py-xl-10">
         <div>
             <div class="container">
-                <div class="mb-4 mb-xl-5 text-center text-white position-relative">
-                    <img src="{{ url('others-version.png') }}" style="width: 150px;">
-                    <!-- <span class="position-absolute align-center mt-5 fs-5">V 1.6</span> -->
+                <div class="mb-4 mb-xl-5 text-center text-white">
+                    <div class="position-relative"><img src="{{ url('others-version.png') }}" style="width: 150px;" ></div>
+                    <span class="position-absolute align-center mt-5 fs-5 version_class">V 1.6</span>
                 </div>
             </div>
             <div class="container">

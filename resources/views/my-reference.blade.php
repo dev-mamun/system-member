@@ -16,7 +16,7 @@
         <div class="d-none d-lg-block">
         </div>
         <div>
-            <h1 class="text-uppercase text-light d-flex mb-0"><img src="{{ url('icon%20-%20member.png') }}" width="40" height="40" class="me-2">MY REFREANCE</h1>
+            <h1 class="text-uppercase text-light d-flex mb-0"><img src="{{ url('icon%20-%20member.png') }}" width="40" height="40" class="me-2">MY REFERRALS</h1>
         </div>
         <div>
             <!-- Start: Profile Button --><a class="btn btn-home p-0" role="button" href="/dashboard"><img class="flex-shrink-0" width="40" height="46" src="{{ url('icon%20-%20home.png') }}"></a><!-- End: Profile Button -->

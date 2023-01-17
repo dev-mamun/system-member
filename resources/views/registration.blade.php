@@ -95,6 +95,8 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:100,200,300,400,500,600,700,800,900&amp;display=swap">
     <link rel="stylesheet" href="{{ url('utilities.css') }}">
     <link rel="stylesheet" href="{{ url('styles.css') }}">
+    <link rel="stylesheet" href="{{ url('custom.css') }}">
+
 </head>
 
 <body class="h-100">
@@ -125,7 +127,7 @@
                             <div class="text-center input-icon position-relative mb-2"><img class="position-absolute" src="{{ url('icon%20-%20lock.png') }}"><input required class="form-control" type="password" name="password" id="password" placeholder="PASSWORD"></div><!-- End: Input Password -->
                             <!-- Start: Input Repeat Password -->
                             <div class="text-center input-icon position-relative mb-4"><img class="position-absolute" src="{{ url('icon%20-%20lock.png') }}"><input required class="form-control" type="password" name="password_again" id="password" placeholder="REPEAT PASSWORD"></div><!-- End: Input Repeat Password -->
-                            <div class="d-flex justify-content-center">
+                            <div class="d-flex justify-content-center r_button">
                                 <div class="d-grid w-50"><input type='button' value="CREATE ACCOUNT" class="btn btn-success btn-sm text-uppercase fw-bold"></div>
                             </div>
                         </form>
