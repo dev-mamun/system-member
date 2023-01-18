@@ -26,7 +26,8 @@ class User extends Authenticatable
         'mobile_number',
         'account_name',
         'username',
-        'referred_by'
+        'referred_by',
+        'reffral_unique_id'
     ];
 
     /**
