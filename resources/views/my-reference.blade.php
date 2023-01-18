@@ -29,23 +29,34 @@
                     <tr class="table-dark-header">
                         <th>COUNT</th>
                         <th>USERNAME</th>
-                        <th>BONUS TYPE</th>
                         <th>AMOUNT</th>
+                        <th>DRB</th>
                         <th>STATUS</th>
                         <th>DATE PAID</th>
                         <th>PAID BY</th>
                     </tr>
                 </thead>
                 <tbody>
-                    <tr>
-                        <td>Cell 1</td>
-                        <td>Cell 2</td>
-                        <td>Cell 2</td>
-                        <td>Cell 2</td>
-                        <td>Cell 2</td>
-                        <td>—</td>
-                        <td>—</td>
-                    </tr>
+                    @if(count($users) > 0)
+                        @foreach($users as $key=>$user)
+                            <tr>
+                                <td>{{ $key+1 }}</td>
+                                <td>{{ $user->username }}</td>
+                                <td>{{ $user->fundusers->value }}</td>
+                                @php 
+                                    $per = 0;
+                                    $userval = $user->fundusers->value;
+                                    $per = (($userval*5) /100);
+                                @endphp
+                                <td>{{ $per }}</td>
+                                <td>Pending</td>
+                                <td>{{ $user->fundusers->created_at }}</td>
+                                <td>{{ $user->name ?? '-' }}</td>
+                            </tr>
+                        @endforeach
+                    @else 
+                        <tr> <td>No data found. </td></tr>
+                    @endif
                 </tbody>
             </table>
         </div>

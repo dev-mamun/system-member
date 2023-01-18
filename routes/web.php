@@ -36,3 +36,7 @@ Route::get('/my-funds', [DashboardController::class, 'myFundsPage']);
 Route::get('/withdrawal', [DashboardController::class, 'withdrawalPage']);
 Route::get('/my-bonus-items', [DashboardController::class, 'myBonusItem']);
 Route::get('/my-raffle-ticket', [DashboardController::class, 'myRaffleTicket']);
+
+Route::get('/my-profile', [DashboardController::class, 'MyProfile'])->name('my-profile');
+Route::get('/my-profile-edit', [DashboardController::class, 'MyProfileEdit'])->name('my-profile-edit');
+

@@ -21,7 +21,7 @@
                 <div class="d-flex justify-content-between align-items-center ribbon-yellow position-relative px-4 mt-2 mt-xl-3"><span class="fw-bold">Active Funds</span>
                     <h4 class="mb-0">0.00</h4><img class="position-absolute" width="43" height="46" src="{{ url('Icon_Bag.png') }}">
                 </div>
-            </div><!-- Start: Profile Button --><a class="btn btn-profile p-0" role="button" href="#"><span class="d-inline-flex flex-column"><img class="rounded-circle flex-shrink-0 mb-1" width="56" height="56" src="{{ url('icon%20-%20profile%20gray.png') }}">
+            </div><!-- Start: Profile Button --><a class="btn btn-profile p-0" role="button" href="{{ route('my-profile') }}"><span class="d-inline-flex flex-column"><img class="rounded-circle flex-shrink-0 mb-1" width="56" height="56" src="{{ url('icon%20-%20profile%20gray.png') }}">
                     <p class="mb-0">MY PROFILE</p>
                 </span></a><!-- End: Profile Button -->
         </header>

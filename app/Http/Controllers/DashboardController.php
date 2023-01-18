@@ -74,6 +74,24 @@ class DashboardController extends Controller
         }
     }
 
+    public function MyProfile(Request $request) {
+        if(!empty($request->session()->get('id'))) {
+            $user = \App\Models\User::where('id', $request->session()->get('id'))->first();
+            return view('my-profile', compact('user'));
+        } else {
+            return redirect('login');
+        }
+    }
+
+    public function MyProfileEdit(Request $request) {
+        if(!empty($request->session()->get('id'))) {
+            $user = \App\Models\User::where('id', $request->session()->get('id'))->first();
+            return view('my-profile-edit', compact('user'));
+        } else {
+            return redirect('login');
+        }
+    }
+
     public function addFundProcess(Request $request) {
         if(!empty($request->session()->get('id'))) {
             $mop = Settings::where(array('description' => 'MODE_OF_PAYMENT'))->first();

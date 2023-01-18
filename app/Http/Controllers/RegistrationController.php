@@ -15,7 +15,7 @@ class RegistrationController extends Controller
 
     public function register(Request $request) {
         //check if the username already exist
-        $query = User::where(array('username' => $_POST['username']))->first();
+        $query = User::where(array('username' => $request->username))->first();
         if ($query) {
             $name = array('name' => $request->session()->get('username'), 'message' => 'Username are taken');
             $message = 'username is taken';
@@ -26,6 +26,7 @@ class RegistrationController extends Controller
             $_POST['referred_by'] = $query->id;
             $_POST['password'] = md5($_POST['password']);
             $_POST['is_active'] = 0;
+            $_POST['reffral_unique_id'] =  rand(1111111111,9999999999);
             User::create($_POST);
             print_r(url('welcome'));
         }
