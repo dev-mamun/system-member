@@ -34,7 +34,7 @@
                             <!-- Start: Email Address -->
                             <div class="text-center input-icon position-relative mb-2"><img class="position-absolute" src=" {{ url('icon%20-%20email.png') }}"><input required class="form-control" type="email" name="email" id="email" placeholder="EMAIL ADDRESS"></div><!-- End: Email Address -->
                             <!-- Start: Input Username -->
-                            <div class="text-center input-icon position-relative mb-2"><img class="position-absolute" src="{{ url('icon%20-%20profile%20blue.png') }}"><input required class="form-control" type="text" id="username" name="username" placeholder="USERNAME">
+                            <div class="text-center input-icon position-relative mb-2"><img class="position-absolute" src="{{ url('icon%20-%20profile%20blue.png') }}"><input required class="form-control form-username" type="text" id="username" name="username" placeholder="USERNAME">
                                 <div id="error" class="alert alert-success custom-alert mb-0 show p-2" role="alert" style="width:125px;height:100px;"><span class="fw-bold text-danger">PLEASE CHOOSE A UNIQUE USERNAME</span></div>
                             </div><!-- End: Input Username -->
                             <!-- Start: Input Password -->

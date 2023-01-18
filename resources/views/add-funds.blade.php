@@ -28,7 +28,7 @@
     <div class="py-4">
         <div class="container h-100">
             <ul class="nav nav-tabs justify-content-center nav-add-funds">
-            <li data-bs-toggle="modal" data-bs-target="#modal-500" class="nav-item"><a class="nav-link d-inline-flex flex-column justify-content-center align-items-center py-0" href="javascript:void(0)" style="background: url('500.png') top left / 100% 100% no-repeat;"></a></li>
+                <li data-bs-toggle="modal" data-bs-target="#modal-500" class="nav-item"><a class="nav-link d-inline-flex flex-column justify-content-center align-items-center py-0" href="javascript:void(0)" style="background: url('500.png') top left / 100% 100% no-repeat;"></a></li>
                 <li class="nav-item" data-bs-toggle="modal" data-bs-target="#modal-1000" class="nav-item"><a class="nav-link d-inline-flex flex-column justify-content-center align-items-center py-0" href="javascript:void(0)" style="background: url('1k.png') top left / 100% 100% no-repeat;"></a></li>
                 <li class="nav-item" data-bs-toggle="modal" data-bs-target="#modal-3000"><a class="nav-link d-inline-flex flex-column justify-content-center align-items-center py-0" href="javascript:void(0)" style="background: url('3k.png') top left / 100% 100% no-repeat;"></a></li>
                 <li class="nav-item" data-bs-toggle="modal" data-bs-target="#modal-5000"><a class="nav-link d-inline-flex flex-column justify-content-center align-items-center py-0" href="javascript:void(0)" style="background: url('5k.png') top left / 100% 100% no-repeat;"></a></li>
@@ -42,7 +42,7 @@
                         </div>
                         <div class="modal-body">
                             <ul class="nav nav-tabs justify-content-center nav-add-funds">
-                                <li class="nav-item mb-0 " ><a class="nav-link d-inline-flex flex-column justify-content-center align-items-center py-0" href="javascript:void(0)" style="background: url(&quot;assets/img/Frame_ItemFrame01_Color_Brown.png&quot;) top left / 100% 100% no-repeat;" data-bs-toggle="modal" data-bs-target="#modal-1"><img width="33" height="31" src="assets/img/icon%20-%20coin.png"><span class="fs-5 fw-bold d-block">500</span></a></li>
+                                <li class="nav-item mb-0 " ><a class="nav-link d-inline-flex flex-column justify-content-center align-items-center py-0" href="javascript:void(0)" style="background: url(&quot;500.png&quot;) top left / 100% 100% no-repeat;" data-bs-toggle="modal" data-bs-target="#modal-1"></a></li>
                             </ul>
                         </div>
                         <div class="modal-footer d-block">
@@ -64,7 +64,7 @@
                         </div>
                         <div class="modal-body">
                             <ul class="nav nav-tabs justify-content-center nav-add-funds">
-                                <li class="nav-item mb-0"><a class="nav-link d-inline-flex flex-column justify-content-center align-items-center py-0" href="javascript:void(0)" style="background: url(&quot;assets/img/Frame_ItemFrame01_Color_Brown.png&quot;) top left / 100% 100% no-repeat;" data-bs-toggle="modal" data-bs-target="#modal-1"><img width="33" height="31" src="{{ url('icon%20-%20coin.png') }}"><span class="fs-5 fw-bold d-block">1000</span></a></li>
+                                <li class="nav-item mb-0"><a class="nav-link d-inline-flex flex-column justify-content-center align-items-center py-0" href="javascript:void(0)" style="background: url(&quot;1k.png&quot;) top left / 100% 100% no-repeat;" data-bs-toggle="modal" data-bs-target="#modal-1"></a></li>
                             </ul>
                         </div>
                         <div class="modal-footer d-block">
@@ -108,7 +108,7 @@
                         </div>
                         <div class="modal-body">
                             <ul class="nav nav-tabs justify-content-center nav-add-funds">
-                                <li class="nav-item mb-0"><a class="nav-link d-inline-flex flex-column justify-content-center align-items-center py-0" href="javascript:void(0)" style="background: url(&quot;assets/img/Frame_ItemFrame01_Color_Brown.png&quot;) top left / 100% 100% no-repeat;" data-bs-toggle="modal" data-bs-target="#modal-1"><img width="33" height="31" src="{{ url('icon%20-%20coin.png') }}"><span class="fs-5 fw-bold d-block">5000</span></a></li>
+                                <li class="nav-item mb-0"><a class="nav-link d-inline-flex flex-column justify-content-center align-items-center py-0" href="javascript:void(0)" style="background: url(&quot;5k.png&quot;) top left / 100% 100% no-repeat;" data-bs-toggle="modal" data-bs-target="#modal-1"></a></li>
                             </ul>
                         </div>
                         <div class="modal-footer d-block">
@@ -130,7 +130,7 @@
                         </div>
                         <div class="modal-body">
                             <ul class="nav nav-tabs justify-content-center nav-add-funds">
-                                <li class="nav-item mb-0"><a class="nav-link d-inline-flex flex-column justify-content-center align-items-center py-0" href="javascript:void(0)" style="background: url(&quot;assets/img/Frame_ItemFrame01_Color_Brown.png&quot;) top left / 100% 100% no-repeat;" data-bs-toggle="modal" data-bs-target="#modal-1"><img width="33" height="31" src="{{ url('icon%20-%20coin.png') }}"><span class="fs-5 fw-bold d-block">10k & UP</span></a></li>
+                                <li class="nav-item mb-0"><a class="nav-link d-inline-flex flex-column justify-content-center align-items-center py-0" href="javascript:void(0)" style="background: url(&quot;10k up.png&quot;) top left / 100% 100% no-repeat;" data-bs-toggle="modal" data-bs-target="#modal-1"></a></li>
                             </ul>
                         </div>
                         <div class="modal-footer d-block">
