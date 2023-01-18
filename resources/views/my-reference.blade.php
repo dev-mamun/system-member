@@ -38,23 +38,30 @@
                 </thead>
                 <tbody>
                     @if(count($users) > 0)
+                    @php
+                        $userval = 0;
+                        $created_at = "";
+                    @endphp
                         @foreach($users as $key=>$user)
+                            @if(!is_null($user->fundusers))
+                                $userval = $user->fundusers->value
+                                $created_at = $user->fundusers->created_at
+                            @endif
                             <tr>
                                 <td>{{ $key+1 }}</td>
                                 <td>{{ $user->username }}</td>
-                                <td>{{ $user->fundusers->value }}</td>
-                                @php 
+                                <td>{{ $userval }}</td>
+                                @php
                                     $per = 0;
-                                    $userval = $user->fundusers->value;
                                     $per = (($userval*5) /100);
                                 @endphp
                                 <td>{{ $per }}</td>
                                 <td>Pending</td>
-                                <td>{{ $user->fundusers->created_at }}</td>
+                                <td>{{ $created_at }}</td>
                                 <td>{{ $user->name ?? '-' }}</td>
                             </tr>
                         @endforeach
-                    @else 
+                    @else
                         <tr> <td>No data found. </td></tr>
                     @endif
                 </tbody>

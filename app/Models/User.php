@@ -27,7 +27,7 @@ class User extends Authenticatable
         'account_name',
         'username',
         'referred_by',
-        'refferal_unique_id'
+        'reffral_unique_id'
     ];
 
     /**

@@ -38,7 +38,7 @@
                         <div class="text-center"><img class="w-75 w-xl-100" src="{{ url('wheel.png') }}"></div>
                     </div>
                     <div class="col align-self-center">
-                        <div class="d-flex justify-content-center flex-xl-column align-items-xl-start"><a class="btn btn-danger btn-lg text-nowrap text-uppercase fw-bold" style="font-size: 30px;width: 130px;padding-bottom:0px;padding-top:0px;" role="button" href="#">SPIN</a><a class="btn btn-success btn-lg text-nowrap text-uppercase fw-bold" style="padding-left:15px;padding-right:10px;padding-top:0px;padding-bottom:0px" role="button" href="#"><span style="color: #000;">DAILY SPINS AVAILABLE:&nbsp;</span><br><span style='font-size: 20px'>7/7</span></a></div>
+                        <div class="d-flex justify-content-center flex-xl-column align-items-xl-start"><a class="btn btn-danger btn-lg text-nowrap text-uppercase fw-bold" style="font-size: 30px;width: 122px;padding-bottom:0px;padding-top:0px" role="button" href="#">SPIN</a><a class="btn btn-success btn-lg text-nowrap text-uppercase fw-bold" style="padding-left:15px;padding-right:10px;padding-top:0px;padding-bottom:0px" role="button" href="#"><span style="color: #000;">DAILY SPINS AVAILABLE:&nbsp;</span><br><span style='font-size: 20px'>7/7</span></a></div>
                     </div>
                 </div>
             </div>

@@ -13,14 +13,14 @@ class CreateTableAdminSettings extends Migration
      */
     public function up()
     {
-        Schema::create('admin_settings_bk', function (Blueprint $table) {
+        Schema::create('admin_settings', function (Blueprint $table) {
             $table->id();
             $table->string('description')->nullable();
             $table->string('value')->nullable();
             $table->timestamps();
         });
 
-        DB::table('admin_settings_bk')->insert([
+        DB::table('admin_settings')->insert([
             ['description' => 'JACKPOT_PRIZE', 'value' => ''],
             ['description' => 'BONUS_ITEM', 'value' => ''],
             ['description' => 'BONUS_ITEM_CLAIM_DATE', 'value' => ''],
