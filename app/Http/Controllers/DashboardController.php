@@ -105,9 +105,6 @@ class DashboardController extends Controller
     public function addFundProcess(Request $request)
     {
         if (!empty($request->session()->get('id'))) {
-            echo base_path()."<br>";
-            die(public_path('/funds'));
-
             $mop = Settings::where(array('description' => 'MODE_OF_PAYMENT'))->first();
             $imageName = $request->image->getClientOriginalName();
             $receiptName = $request->receipt->getClientOriginalName();

@@ -298,7 +298,7 @@
                                 </div>
                                 <div class="d-grid w-50"><input class="btn btn-success text-uppercase fw-bold"
                                                                 value="UPLOAD" type="submit"/></div>
-                                <input type="hidden" value="500" name="value"/>
+                                <input type="hidden" value="1000" name="value"/>
                             </div><!-- End: Action Button -->
                         </div>
                     </div>
