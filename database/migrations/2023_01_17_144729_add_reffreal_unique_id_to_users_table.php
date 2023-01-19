@@ -14,7 +14,7 @@ class AddReffrealUniqueIdToUsersTable extends Migration
     public function up()
     {
         Schema::table('users', function (Blueprint $table) {
-            $table->string('refferal_unique_id')->nullable()->after('referred_by');
+            $table->string('reffral_unique_id')->nuullable()->after('referred_by');
         });
     }
 

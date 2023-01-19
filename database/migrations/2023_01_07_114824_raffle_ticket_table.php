@@ -31,6 +31,6 @@ class RaffleTicketTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('raffle_ticket');
+        //
     }
 }

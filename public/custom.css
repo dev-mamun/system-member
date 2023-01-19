@@ -1,5 +1,5 @@
 .version_class{
-    top: 0%;
+    top: 27%;
     left: 0px;
     right: 0px;
 }
@@ -14,27 +14,27 @@
 
 @media only screen and (max-width: 1024px) {
     .version_class {
-        top: 0%;
+        top: 22%;
     }
 }
 
 
 @media only screen and (max-width: 992px) {
     .version_class {
-        top: 0%;
+        top: 25.5%;
     }
 }
 
 
 @media only screen and (max-width: 912px) {
     .version_class {
-        top: 0%;
+        top: 37.6%;
     }
 }
 
 @media only screen and (max-width: 768px) {
     .version_class {
-        top: 0%;
+        top: 33.5%;
     }
     .r_button{
         position: absolute;
@@ -45,25 +45,24 @@
 
 @media only screen and (max-width: 540px) {
     .version_class {
-        top: 0%;
+        top: 190px;
     }
 }
 
 @media only screen and (max-width: 414px) {
     .version_class {
-        top: 0%;
+        top: 286px;
     }
 }
 
 @media only screen and (max-width: 390px) {
     .version_class {
-        top: 0%;
+        top: 255px;
     }
 }
 
 @media only screen and (max-width: 375px) {
     .version_class {
-        top: 0%;
+        top: 165px;
     }
 }
-
