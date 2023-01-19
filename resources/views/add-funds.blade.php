@@ -250,8 +250,8 @@
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-body" style="background-color:white;">
-                            <span>Add image of the fund</span>
-                            <input type="file" name="image"/> <br/>
+                            <!--<span>Add image of the fund</span>
+                            <input type="file" name="image"/> <br/>-->
                             <span>Image of the receipt</span>
                             <input type="file" name="receipt"/>
                         </div>
@@ -283,8 +283,8 @@
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-body" style="background-color:white;">
-                            <span>Add image of the fund</span>
-                            <input type="file" name="image"/> <br/>
+                           <!-- <span>Add image of the fund</span>
+                            <input type="file" name="image"/> <br/>-->
                             <span>Image of the receipt</span>
                             <input type="file" name="receipt"/>
                         </div>
@@ -316,8 +316,8 @@
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-body" style="background-color:white;">
-                            <span>Add image of the fund</span>
-                            <input type="file" name="image"/> <br/>
+                           <!-- <span>Add image of the fund</span>
+                            <input type="file" name="image"/> <br/>-->
                             <span>Image of the receipt</span>
                             <input type="file" name="receipt"/>
                         </div>
@@ -349,8 +349,8 @@
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-body" style="background-color:white;">
-                            <span>Add image of the fund</span>
-                            <input type="file" name="image"/> <br/>
+                            <!--<span>Add image of the fund</span>
+                            <input type="file" name="image"/> <br/>-->
                             <span>Image of the receipt</span>
                             <input type="file" name="receipt"/>
                         </div>
@@ -382,8 +382,8 @@
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-body" style="background-color:white;">
-                            <span>Add image of the fund</span>
-                            <input type="file" name="image"/> <br/>
+                            <!--<span>Add image of the fund</span>
+                            <input type="file" name="image"/> <br/>-->
                             <span>Image of the receipt</span>
                             <input type="file" name="receipt"/>
                             Input your Amount:
