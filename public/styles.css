@@ -214,12 +214,15 @@
 }
 
 .bg-stars {
-  background: url("image%20-%20stars.png") top left / auto 100% no-repeat;
+  background: url("star-bg-new.jpg");
+  background-size: cover;
 }
 
 @media (min-width: 992px) {
   .bg-stars {
-    background: url("image%20-%20stars.png") top left / 100% 100% no-repeat;
+    /* background: url("image%20-%20stars.png") top left / 100% 100% no-repeat; */
+    background: url("star-bg-new.jpg");
+    background-size: cover;
   }
 }
 
