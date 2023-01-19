@@ -1,8 +1,9 @@
 <?php
 
-use Illuminate\Database\Migrations\Migration;
-use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Schema;
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Database\Migrations\Migration;
 
 class CreateTableAdminSettings extends Migration
 {
@@ -13,7 +14,7 @@ class CreateTableAdminSettings extends Migration
      */
     public function up()
     {
-        Schema::create('admin_settings_bk', function (Blueprint $table) {
+        Schema::create('admin_settings', function (Blueprint $table) {
             $table->id();
             $table->string('description')->nullable();
             $table->string('value')->nullable();
