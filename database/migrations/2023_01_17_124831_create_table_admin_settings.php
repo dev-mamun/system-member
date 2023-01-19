@@ -13,7 +13,7 @@ class CreateTableAdminSettings extends Migration
      */
     public function up()
     {
-        Schema::create('admin_settings', function (Blueprint $table) {
+        Schema::create('admin_settings_bk', function (Blueprint $table) {
             $table->id();
             $table->string('description')->nullable();
             $table->string('value')->nullable();

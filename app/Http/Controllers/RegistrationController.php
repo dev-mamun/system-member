@@ -26,7 +26,7 @@ class RegistrationController extends Controller
             $_POST['referred_by'] = $query->id;
             $_POST['password'] = md5($_POST['password']);
             $_POST['is_active'] = 0;
-            $_POST['reffral_unique_id'] =  rand(1111111111,9999999999);
+            $_POST['refferal_unique_id'] =  rand(1111111111,9999999999);
             User::create($_POST);
             print_r(url('welcome'));
         }
