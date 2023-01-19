@@ -42,7 +42,7 @@
                         </div>
                         <div class="modal-body">
                             <ul class="nav nav-tabs justify-content-center nav-add-funds">
-                                <li class="nav-item mb-0 " ><a class="nav-link d-inline-flex flex-column justify-content-center align-items-center py-0" href="javascript:void(0)" style="background: url(&quot;assets/img/Frame_ItemFrame01_Color_Brown.png&quot;) top left / 100% 100% no-repeat;" data-bs-toggle="modal" data-bs-target="#modal-1"><img width="33" height="31" src="assets/img/icon%20-%20coin.png"><span class="fs-5 fw-bold d-block">500</span></a></li>
+                                <li class="nav-item mb-0 " ><a class="nav-link d-inline-flex flex-column justify-content-center align-items-center py-0" href="javascript:void(0)" style="background: url(&quot;500.png&quot;) top left / 100% 100% no-repeat;" data-bs-toggle="modal" data-bs-target="#modal-1"></a></li>
                             </ul>
                         </div>
                         <div class="modal-footer d-block">
@@ -64,7 +64,7 @@
                         </div>
                         <div class="modal-body">
                             <ul class="nav nav-tabs justify-content-center nav-add-funds">
-                                <li class="nav-item mb-0"><a class="nav-link d-inline-flex flex-column justify-content-center align-items-center py-0" href="javascript:void(0)" style="background: url(&quot;assets/img/Frame_ItemFrame01_Color_Brown.png&quot;) top left / 100% 100% no-repeat;" data-bs-toggle="modal" data-bs-target="#modal-1"><img width="33" height="31" src="{{ url('icon%20-%20coin.png') }}"><span class="fs-5 fw-bold d-block">1000</span></a></li>
+                                <li class="nav-item mb-0"><a class="nav-link d-inline-flex flex-column justify-content-center align-items-center py-0" href="javascript:void(0)" style="background: url(&quot;1k.png&quot;) top left / 100% 100% no-repeat;" data-bs-toggle="modal" data-bs-target="#modal-1"></a></li>
                             </ul>
                         </div>
                         <div class="modal-footer d-block">
@@ -108,7 +108,7 @@
                         </div>
                         <div class="modal-body">
                             <ul class="nav nav-tabs justify-content-center nav-add-funds">
-                                <li class="nav-item mb-0"><a class="nav-link d-inline-flex flex-column justify-content-center align-items-center py-0" href="javascript:void(0)" style="background: url(&quot;assets/img/Frame_ItemFrame01_Color_Brown.png&quot;) top left / 100% 100% no-repeat;" data-bs-toggle="modal" data-bs-target="#modal-1"><img width="33" height="31" src="{{ url('icon%20-%20coin.png') }}"><span class="fs-5 fw-bold d-block">5000</span></a></li>
+                                <li class="nav-item mb-0"><a class="nav-link d-inline-flex flex-column justify-content-center align-items-center py-0" href="javascript:void(0)" style="background: url(&quot;5k.png&quot;) top left / 100% 100% no-repeat;" data-bs-toggle="modal" data-bs-target="#modal-1"></a></li>
                             </ul>
                         </div>
                         <div class="modal-footer d-block">
@@ -130,7 +130,7 @@
                         </div>
                         <div class="modal-body">
                             <ul class="nav nav-tabs justify-content-center nav-add-funds">
-                                <li class="nav-item mb-0"><a class="nav-link d-inline-flex flex-column justify-content-center align-items-center py-0" href="javascript:void(0)" style="background: url(&quot;assets/img/Frame_ItemFrame01_Color_Brown.png&quot;) top left / 100% 100% no-repeat;" data-bs-toggle="modal" data-bs-target="#modal-1"><img width="33" height="31" src="{{ url('icon%20-%20coin.png') }}"><span class="fs-5 fw-bold d-block">10k & UP</span></a></li>
+                                <li class="nav-item mb-0"><a class="nav-link d-inline-flex flex-column justify-content-center align-items-center py-0" href="javascript:void(0)" style="background: url(&quot;10k up.png&quot;) top left / 100% 100% no-repeat;" data-bs-toggle="modal" data-bs-target="#modal-1"></a></li>
                             </ul>
                         </div>
                         <div class="modal-footer d-block">
@@ -153,8 +153,6 @@
                             <h6 class="text-uppercase text-center text-white modal-title">PLEASE ONLY SEND GCASH JUAN PERDIDO</h6><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-body" style="background-color:white;">
-                           <span>Add image of the fund</span>
-                           <input type="file" name="image"/> <br/>
                            <span>Image of the receipt</span>
                            <input type="file" name="receipt"/>
                         </div>
@@ -171,7 +169,7 @@
             </form>
             </div>
 
-            <div class="modal fade custom-modal" role="dialog" tabindex="-1" id="modal-1-500">
+            <div class="modal fade custom-modal" role="dialog" tabindex="-1" id="modal-1-1000">
             <form method="POST" action="funds/add" enctype="multipart/form-data">
                 {{ @csrf_field()}}
                 <div class="modal-dialog modal-dialog-centered" role="document">
@@ -180,8 +178,6 @@
                             <h6 class="text-uppercase text-center text-white modal-title">PLEASE ONLY SEND GCASH JUAN PERDIDO</h6><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-body" style="background-color:white;">
-                           <span>Add image of the fund</span>
-                           <input type="file" name="image"/> <br/>
                            <span>Image of the receipt</span>
                            <input type="file" name="receipt"/>
                         </div>
@@ -207,8 +203,6 @@
                             <h6 class="text-uppercase text-center text-white modal-title">PLEASE ONLY SEND GCASH JUAN PERDIDO</h6><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-body" style="background-color:white;">
-                           <span>Add image of the fund</span>
-                           <input type="file" name="image"/> <br/>
                            <span>Image of the receipt</span>
                            <input type="file" name="receipt"/>
                         </div>
@@ -234,8 +228,6 @@
                             <h6 class="text-uppercase text-center text-white modal-title">PLEASE ONLY SEND GCASH JUAN PERDIDO</h6><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-body" style="background-color:white;">
-                           <span>Add image of the fund</span>
-                           <input type="file" name="image"/> <br/>
                            <span>Image of the receipt</span>
                            <input type="file" name="receipt"/>
                         </div>
@@ -261,18 +253,15 @@
                             <h6 class="text-uppercase text-center text-white modal-title">PLEASE ONLY SEND GCASH JUAN PERDIDO</h6><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-body" style="background-color:white;">
-                           <span>Add image of the fund</span>
-                           <input type="file" name="image"/> <br/>
                            <span>Image of the receipt</span>
                            <input type="file" name="receipt"/>
-                           Input your Amount:
-                           <input type="text" name="value"/>
                         </div>
                         <div class="modal-footer d-block">
                             <!-- Start: Action Button -->
                             <div class="d-flex mx-auto m-0 w-50">
                                 <div class="d-grid w-50"><button class="btn btn-danger text-uppercase fw-bold" type="button" data-bs-dismiss="modal">CHANGE</button></div>
                                 <div class="d-grid w-50"><input  class="btn btn-success text-uppercase fw-bold" value="UPLOAD" type="submit"/></div>
+                                <input type="hidden" value="10000" name="value"/>
                             </div><!-- End: Action Button -->
                         </div>
                     </div>

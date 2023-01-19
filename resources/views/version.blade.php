@@ -16,8 +16,10 @@
         <div>
             <div class="container">
                 <div class="mb-4 mb-xl-5 text-center text-white">
-                    <div class="position-relative"><img src="{{ url('others-version.png') }}" style="width: 150px;" ></div>
-                    <span class="position-absolute align-center mt-5 fs-5 version_class">V 1.6</span>
+                    <div class="position-relative">
+                        <img src="{{ url('others-version.png') }}" style="width: 150px;" >
+                        <span class="position-absolute align-center mt-5 fs-5 version_class">V 1.6</span>
+                    </div>
                 </div>
             </div>
             <div class="container">
