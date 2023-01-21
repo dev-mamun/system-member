@@ -30,7 +30,7 @@
                 <div class="row row-cols-1 row-cols-xl-3 h-100">
                     <div class="col align-self-center">
                         <ul class="nav nav-tabs justify-content-center flex-xl-column align-items-xl-center home-nav">
-                            <li class="nav-item me-xl-0 mb-0 mb-xl-3"><a class="nav-link d-inline-flex flex-column justify-content-center align-items-center" href="/add-funds" style="background: url('Btn_MainButton_Green.png') top left / 100% 100% no-repeat;"><img src="{{ url('icon%20-%20pouch.png') }}"><span class="mt-1">ADD FUNDS</span></a></li>
+                            <li class="nav-item me-xl-0 mb-0 mb-xl-0"><a class="nav-link d-inline-flex flex-column justify-content-center align-items-center" href="/add-funds" style="background: url('Btn_MainButton_Green.png') top left / 100% 100% no-repeat;"><img src="{{ url('icon%20-%20pouch.png') }}"><span class="mt-1">ADD FUNDS</span></a></li>
                             <li class="nav-item mb-0"><a class="nav-link d-inline-flex flex-column justify-content-center align-items-center" href="/withdrawal" style="background: url('Btn_MainButton_Red.png') top left / 100% 100% no-repeat;"><img src="{{ url('Icon_ShopIcon_Gold3.png') }}"><span class="mt-1">WITHDRAW</span></a></li>
                         </ul>
                     </div>
@@ -38,7 +38,7 @@
                         <div class="text-center"><img class="w-75 w-xl-100" src="{{ url('wheel.png') }}"></div>
                     </div>
                     <div class="col align-self-center">
-                        <div class="d-flex justify-content-center flex-xl-column align-items-xl-start"><a class="btn btn-danger btn-lg text-nowrap text-uppercase fw-bold" style="font-size: 30px;width: 122px;padding-bottom:0px;padding-top:0px" role="button" href="#">SPIN</a><a class="btn btn-success btn-lg text-nowrap text-uppercase fw-bold" style="padding-left:15px;padding-right:10px;padding-top:0px;padding-bottom:0px" role="button" href="#"><span style="color: #000;">DAILY SPINS AVAILABLE:&nbsp;</span><br><span style='font-size: 20px'>7/7</span></a></div>
+                        <div class="d-flex justify-content-center flex-xl-column align-items-xl-center"><a class="btn btn-danger btn-lg text-nowrap text-uppercase fw-bold" style="font-size: 30px;width: 122px;padding-bottom:0px;padding-top:0px" role="button" href="#">SPIN</a><a class="btn btn-success btn-lg text-nowrap text-uppercase fw-bold" style="padding-left:15px;padding-right:10px;padding-top:0px;padding-bottom:0px" role="button" href="#"><span style="color: #000;">DAILY SPINS AVAILABLE:&nbsp;</span><br><span style='font-size: 20px'>7/7</span></a></div>
                     </div>
                 </div>
             </div>
